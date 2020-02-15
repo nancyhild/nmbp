@@ -7,7 +7,7 @@ s
 
 ### Organization of this document
 
-The purpose of this document is to show you by example how to create a nimbella project and use the main platform features. We'll use a set of examples as tutorials to give you a feel for the various types of projects you can create.
+The purpose of this document is to show you by example how to create a nimbella project and use the main platform features to build a stateful cloud application. We'll use a set of tutorials to give you a feel for the various types of projects you can create.
 
 The examples used in this document are available on GitHub in these tutorials and the Nimbella platform has integrations with GitHub to make it easy to deploy your projects from GitHub, as you'll see.
 
@@ -25,3 +25,10 @@ Here's how this document is organized:
   - [An Optical Chaacter Recognition \(OCR\) and print job serverless application]
     This is a more elaborate example using a React front end and more functions on the back end.
     [Preview](https://ocrdemo-apigcp.nimbella.io)
+
+### Prerequisites
+
+To understand these tutorials, the following developer skills will be helpful:
+- Knowledge of JavaScript.
+- xxx
+To do these tutorials yourself, you'll need a Nimbella platform account.
