@@ -5,4 +5,4 @@ layout: default
 
 {% include _includes/welcome.md %}
 
-{% include _includes/qrcodetutorial.md %}
+{% include _includes/qrtutorial.md %}
