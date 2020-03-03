@@ -7,7 +7,7 @@ The Visits app is stateful and displays on a web page how many times the page ha
 This project has the following components:
 
 - A web front end with a single HTML file.
-- Two functions in the back end, implemented with PHP, which create and manage the cookie for the app, increment the data store of the visit count.
+- Two functions in the back end, implemented with PHP, which create and manage the cookie for the app, and increment the data store of the visit count.
 
 ### Project file structure
 
