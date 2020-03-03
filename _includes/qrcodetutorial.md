@@ -1,10 +1,12 @@
 ## QR Code Tutorial
 
-This tutorial explains the [QR Code demo](https://github.com/nimbella/demo-projects/tree/master/qrcode)  available on GitHub and shows you how to deploy it to the Nimbella Cloud.
+This tutorial explains the [QR Code demo](https://github.com/nimbella/demo-projects/tree/master/qrcode) available on GitHub and shows you how to deploy it to the Nimbella Cloud.
 
-The QR Code demo is a single-page web application that generates a [QR code](https://en.wikipedia.org/wiki/QR_code) from text that a user submits. The demo has the following code and configuration components:
+The QR Code demo is a stateless single-page web application that generates a [QR code](https://en.wikipedia.org/wiki/QR_code) from text that a user submits. You can [view the app here](https://qrdemo-apigcp.nimbella.io).
 
-- A  single index.html file, which has a field for a visitor to enter some text and click **Submit**.
+The QR Code demo has the following code and configuration components:
+
+- A single index.html file, which has a field for a visitor to enter some text and click **Submit**.
 - A single JavaScript file that provides the backend logic for the conversion of text to QR code.
 - A Node package manager file called *packages.json*, which describes what dependencies the function has.
 
@@ -14,11 +16,9 @@ The GitHub project has the file structure that Nimbella uses to intelligently de
 
 ![](assets/qrcodetutorial-11520868.svg)
 
-Here are the basics of the file structure of this project.
+The *packages* directory contains the project's actions, and in this example, there's only one. The first subdirectory name usually serves as the package qualifier, but when it's named *default*, no qualifier is prepended to the action name. The next subdirectory, *qr*, is the name of the action, and the *qr.js* file contains the logic for that action.
 
-- The *packages* directory contains the project's actions, and in this example there's only one. The first subdirectory name usually serves as the package qualifier, but when it's named *default*, no qualifier is prepanded to the action name. The next subdiretory, *qr*, is the name of the action, and the *qr.js* file contains the logic for that action.
-
-- The *web* directory contains the static web content for the project. In this case, there is just one HTML file and one image.
+The *web* directory contains the  web content for the project. In this case, there is just one HTML file and one image. The _index.html_ file contains a form with a text box for the user to input the text that will be converted.
 
 ### Notes on QR logic
 
@@ -32,12 +32,10 @@ The *index.html* file contains the usual markup and logic that you'd write for s
 The *packages.json* file in the *qr* directory triggers an automatic build of the action when the *qr.js* file is modified. For more information about builds, see the [section on incorporating build steps in the Nimbella Command Line Tool document](https://nimbella.io/downloads/nim/nim.html#incorporating-build-steps-for-actions-and-web-content).
 
 ### Deploy this project to the Nimbella Cloud
-If you have the [Nimbella command line tool called `nim`](https://nimbella.io/downloads/nim/nim.html#install-the-nimbella-command-line-tool-nim) installed, you can deploy this project directly from GitHub.
+If you have the [Nimbella command line tool called `nim`](https://nimbella.io/downloads/nim/nim.html#install-the-nimbella-command-line-tool-nim) installed, you can deploy this project directly from GitHub, either online or from the local repository  cloned to your  disk.
 
 - Run the following command in your terminal:
 
    `nim project deploy /path/to/qrcode`
 
-   **Note:** If you clone the GitHub repository locally to your disk, then you can deploy from your local path. For example if you cloned the demo to */path/to/demos/qrcode* then the command would be:
-
-   `nim project deploy /path/to/demos/qrcode`
+   The output of this command will include a link to where the application is running in the cloud.
