@@ -1,62 +1,45 @@
 ## Page Visit Counter Tutorial
 
-This tutorial explains the [Visits demo](https://github.com/nimbella/demo-projects/tree/master/visits). This demo app displays on a web page how many times the page has been uniquely visited since the project was deployed.
+This tutorial describes the [Visits demo](https://github.com/nimbella/demo-projects/tree/master/visits) and shows you how to deploy it to the Nimbella Cloud.
 
-This project runs in the Nimbella Cloud and so is a serverless app with the following components:
+The Visits app is stateful and displays on a web page how many times the page has been uniquely visited since the project was deployed. You can [view the app here](LINK).
+
+This project has the following components:
 
 - A web front end with a single HTML file.
-- Two functions
-- One state
-
-The backend is implemented in PHP.
-
-This tutorial describes the demo app and shows you how to deploy it to the Nimbella Cloud.
+- Two functions in the back end, implemented with PHP, which create and manage the cookie for the app, increment the data store of the visit count.
 
 ### Project file structure
 
-The GitHub project has the file structure that Nimbella uses to intelligently deploy the project:
+The GitHub project has the file structure that Nimbella uses to deploy the project with minimal configuration. Here is the directory structure for the Visits project:
 
-![](assets/qrcodetutorial-11520868.svg)
+![](assets/visitstutorial-cc3f0c43.svg)
 
-Here are the basics of the file structure of this project.
+#### Actions
 
-- The *packages* directory contains the project's actions, and in this example there's only one. The first subdirectory name usually serves as the package qualifier, but when it's named *default*, no qualifier is prepanded to the action name. The next subdiretory, *qr*, is the name of the action, and the *qr.js* file contains the logic for that action.
+Actions are located under the _packages_ directory and determined by the subdirectory structure. In this case, the subdirectory called _visits_ serves as a qualifier for the project's two actions. The _visits_ directory contains two PHP files, which are determined to be two actions: `visits/counter` and `visits/info`.
 
-- The *web* directory contains the static web content for the project. In this case, there is just one HTML file and one image.
+- The code for the `counter` action in _counter.php_ creates an instance of a [Redis key-value store](https://redis.io) that is built into the Nimbella Cloud. It checks for a cookie first, and if none is found, it increments the count by one and writes to the cookie.
 
+- The `info` action checks for a file in the data bucket returns its contents, which are the date since the project was deployed. If it can't find the file, it creates one and adds the current date.
 
------
-from **readme.md**:
+#### Static web content
 
-Prerequisites
+The _web_ directory contains  static web content for the project. In this case, there is one HTML file and a logo image.
 
-The project is intended for the Nimbella Cloud. Projects are deployed using the Nimbella command line tool called nim. You can install it from nimbella.io if you don't have it already installed. Once downloaded, use nim auth login <token> to login to the desired cloud namespace which will host this project once deployed.
+The _index.html_ file contains JavaScript that displays the number of unique visitors and the date that the count started.
 
-Deploy Project
+### No other configuration or build instructions required
 
-Run nim project deploy . to deploy the project then visit the shown link to see your project running in the cloud.
+With this directory structure, you don't need any project  configuration or specific build instructions to deploy this project in the Nimbella Cloud. Just run the deployment command in the next section.
 
-----------
-
-
-### Notes on QR logic
-
-The code for the QR action is standard Node.js. It uses an existing Node [library](https://www.npmjs.com/package/qrcode) for the actual code generation.
-
-### Notes on QR web content
-
-The *index.html* file contains the usual markup and logic that you'd write for standard web deployment, with an input form for text. In this case, it calls an API to retrieve a QR code for the form input. This API is implemented by *qr.js*.
-
-### Notes on packages.json
-The *packages.json* file in the *qr* directory triggers an automatic build of the action when the *qr.js* file is modified. For more information about builds, see the [section on incorporating build steps in the Nimbella Command Line Tool document](https://nimbella.io/downloads/nim/nim.html#incorporating-build-steps-for-actions-and-web-content).
 
 ### Deploy this project to the Nimbella Cloud
-If you have the [Nimbella command line tool called `nim`](https://nimbella.io/downloads/nim/nim.html#install-the-nimbella-command-line-tool-nim) installed, you can deploy this project directly from GitHub.
+
+If you have the [Nimbella command line tool called `nim`](https://nimbella.io/downloads/nim/nim.html#install-the-nimbella-command-line-tool-nim) installed, you can deploy this project directly from GitHub, either online or from the local repository  cloned to your  disk.
 
 - Run the following command in your terminal:
 
-   `nim project deploy /path/to/qrcode`
+   `nim project deploy /path/to/visits`
 
-   **Note:** If you clone the GitHub repository locally to your disk, then you can deploy from your local path. For example if you cloned the demo to */path/to/demos/qrcode* then the command would be:
-
-   `nim project deploy /path/to/demos/qrcode`
+The output of this command will include a link to where the application is running in the cloud.
