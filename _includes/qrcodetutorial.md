@@ -3,7 +3,6 @@
 This tutorial explains the [QR Code demo](https://github.com/nimbella/demo-projects/tree/master/qrcode) available on GitHub and shows you how to deploy it to the Nimbella Cloud.
 
 The QR Code demo is a stateless single-page web application that generates a [QR code](https://en.wikipedia.org/wiki/QR_code) from text that a user submits. You can [view the app here](https://qrdemo-apigcp.nimbella.io).
-Â
 The QR Code demo has the following code and configuration components:
 
 - A single index.html file, which has a field for a visitor to enter some text and click **Submit**.
