@@ -8,7 +8,7 @@ The OCR demo is an example of a serverless Nimbella Cloud application with a [Re
 
 The OCR demo has the following code and configuration components, described in more detail later:
 
--Application logic: The _packages_ directory contains several Nimbella actions, which are logical collections of functions.
+- Application logic: The _packages_ directory contains several Nimbella actions, which are logical collections of functions.
 - Static web content: The _web_ directory contains a _public_ directory, with the files that will be part of the public website, and a _src_ directory with React component files and other JavaScript files that are built into the _index.html_ template page to produce the final static public page.
 - Slack application: A Nimbella Commander project folder called _commander_, with an _ocr.js_ file with an app that can be installed into Slack.
 
