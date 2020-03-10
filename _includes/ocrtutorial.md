@@ -13,7 +13,6 @@ The OCR demo has the following code and configuration components, described in m
 - Slack application: A Nimbella Commander project folder called _commander_, with an _ocr.js_ file with an app that can be installed into Slack.
 
 - A single JavaScript file that provides the backend logic for the conversion of text to QR code.
-- A Node package manager file called *package.json*, which describes what dependencies the function has.
 
 ### Project structure and logic
 
