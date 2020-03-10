@@ -31,7 +31,6 @@ In any Nimbella project, the deployer looks for one or both of the following top
 
 The _packages_ and _web_ directory contents are described in the following sections.
 
-Any other directories or files that appear at the top level are ignored by the deployer. In this case, there's a third top-level directory called _commander_, which contains logic for a Slack application that is managed by [Nimbella Commander](https://nimbella.com/product/commander).
 
 There are also several configuration files. The _project.yml_ file in the OCR demo configures the object store bucket provided with your Nimbella Cloud namespace for web content and database instances.
 
