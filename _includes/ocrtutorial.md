@@ -12,7 +12,6 @@ The OCR demo has the following code and configuration components, described in m
 - Static web content: The _web_ directory contains a _public_ directory, with the files that will be part of the public website, and a _src_ directory with React component files and other JavaScript files that are built into the _index.html_ template page to produce the final static public page.
 - Slack application: A Nimbella Commander project folder called _commander_, with an _ocr.js_ file with an app that can be installed into Slack.
 
-- A single JavaScript file that provides the backend logic for the conversion of text to QR code.
 
 ### Project structure and logic
 
