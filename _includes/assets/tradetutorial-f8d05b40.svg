@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 539 323" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-49,-1811)">
+        <g id="trade-demo-top-level-folders" serif:id="trade demo top-level folders" transform="matrix(0.242356,0,0,0.193645,49,1811)">
+            <rect x="0" y="0" width="2224" height="1668" style="fill:none;"/>
+            <g transform="matrix(0.875129,0,0,0.796198,36.6589,52.2849)">
+                <rect x="26" y="0" width="2397" height="1932" style="fill:none;stroke:rgb(95,158,167);stroke-width:21.57px;"/>
+            </g>
+            <g id="qr">
+            </g>
+            <g id="packages" transform="matrix(0.208294,0,0,0.26069,132.923,561.905)">
+                <g transform="matrix(1,0,0,1,28.7119,574.511)">
+                    <rect x="54.29" y="370.711" width="750" height="500" style="fill:rgb(249,167,119);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,28.7119,574.511)">
+                    <path d="M204.29,270.711L54.29,270.711L54.29,350.711L284.29,350.711L204.29,270.711Z" style="fill:rgb(249,167,119);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,28.7119,574.511)">
+                    <path d="M945.71,229.288L945.71,729.288L814.29,729.288L814.29,360.708L308.43,360.708L208.43,260.708L195.71,260.708L195.71,229.288L945.71,229.288Z" style="fill:rgb(249,167,119);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,28.7119,574.511)">
+                    <path d="M345.711,129.289L195.711,129.289L195.711,209.289L425.711,209.289L345.711,129.289Z" style="fill:rgb(249,167,119);fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="web" transform="matrix(0.208294,0,0,0.26069,716.178,559.283)">
+                <g transform="matrix(1,0,0,1,-1140.67,584.57)">
+                    <rect x="54.29" y="370.711" width="750" height="500" style="fill:rgb(249,167,119);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,-1140.67,584.57)">
+                    <path d="M204.29,270.711L54.29,270.711L54.29,350.711L284.29,350.711L204.29,270.711Z" style="fill:rgb(249,167,119);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,-1140.67,584.57)">
+                    <path d="M945.71,229.288L945.71,729.288L814.29,729.288L814.29,360.708L308.43,360.708L208.43,260.708L195.71,260.708L195.71,229.288L945.71,229.288Z" style="fill:rgb(249,167,119);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,-1140.67,584.57)">
+                    <path d="M345.711,129.289L195.711,129.289L195.711,209.289L425.711,209.289L345.711,129.289Z" style="fill:rgb(249,167,119);fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g transform="matrix(1.56352,0,0,1.95682,-1083.66,419.306)">
+                <text x="1036.09px" y="305.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:30.085px;fill:rgb(216,120,67);">web</text>
+            </g>
+            <g transform="matrix(1.56352,0,0,1.95682,-1423.9,409.899)">
+                <text x="999.19px" y="305.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:30.085px;fill:rgb(216,120,67);">packages</text>
+            </g>
+            <g transform="matrix(1.56352,0,0,1.95682,-835.398,-255.191)">
+                <text x="1016.95px" y="305.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:38.002px;fill:rgb(216,120,67);">trade</text>
+            </g>
+            <g transform="matrix(3.55269,0,0,4.44636,-850.475,-1138.36)">
+                <text x="285.999px" y="300.824px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:19.976px;fill:rgb(51,51,51);">Trading project – top-level directories</text>
+            </g>
+            <g transform="matrix(1.04653,0,0,0.5583,155.524,-253.354)">
+                <path d="M647.266,1134.49L103.724,1753.08" style="fill:none;stroke:rgb(249,167,119);stroke-width:10.26px;"/>
+            </g>
+            <g transform="matrix(-1.17783,0,0,0.587658,747.624,-271.676)">
+                <path d="M-72.408,1108.99L100.959,1696.68" style="fill:none;stroke:rgb(249,167,119);stroke-width:9.2px;"/>
+            </g>
+            <g transform="matrix(-1.87774,0,0,0.784409,1592.71,-506.732)">
+                <path d="M404.638,1130.49L291.165,1735.04" style="fill:none;stroke:rgb(95,158,167);stroke-width:5.9px;"/>
+            </g>
+            <g transform="matrix(-1.45105,0,0,0.861783,1420.06,-594.202)">
+                <path d="M404.638,1130.49L-50.532,1841.71" style="fill:none;stroke:rgb(95,158,167);stroke-width:7.27px;"/>
+            </g>
+            <g transform="matrix(-1.87774,0,0,0.784409,1592.71,-506.732)">
+                <path d="M404.638,1130.49L-167.798,1735.04" style="fill:none;stroke:rgb(95,158,167);stroke-width:5.9px;"/>
+            </g>
+            <g transform="matrix(3.10075,0,0,7.33294,-9432.05,-1583.95)">
+                <rect x="3331" y="252" width="386" height="161" style="fill:none;stroke:rgb(95,158,167);stroke-opacity:0.5;stroke-width:3.52px;"/>
+            </g>
+            <g transform="matrix(4.12616,0,0,5.16409,-1079.3,-2453.09)">
+                <text x="573.977px" y="543.656px" style="font-family:'Merriweather-Bold', 'Merriweather';font-weight:700;font-size:9.333px;fill:rgb(63,107,113);fill-opacity:0.85;">Directories and ﬁles not</text>
+                <text x="567.415px" y="552.99px" style="font-family:'Merriweather-Bold', 'Merriweather';font-weight:700;font-size:9.333px;fill:rgb(63,107,113);fill-opacity:0.85;">recognized by the deployer</text>
+            </g>
+            <g transform="matrix(1.56352,0,0,1.95682,240.432,327.998)">
+                <text x="997.493px" y="305.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:24.631px;fill:rgb(95,158,167);">readme.md</text>
+            </g>
+            <g transform="matrix(1.56352,0,0,1.95682,-602.691,327.998)">
+                <text x="999.249px" y="305.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:24.631px;fill:rgb(95,158,167);">project.yml</text>
+            </g>
+            <g transform="matrix(1.56352,0,0,1.95682,-123.97,460.661)">
+                <text x="866.569px" y="305.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:24.631px;fill:rgb(95,158,167);">trading_demo-1.0.0-swagger.yaml</text>
+                <text x="1062.46px" y="330.406px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:24.631px;fill:rgb(95,158,167);">-</text>
+            </g>
+        </g>
+    </g>
+</svg>
