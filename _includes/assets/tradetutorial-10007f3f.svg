@@ -55,13 +55,13 @@
                 <path d="M275,200L125,200L125,280L355,280L275,200Z" style="fill:rgb(249,167,119);fill-rule:nonzero;"/>
             </g>
             <g transform="matrix(1.34408,0,0,1.51936,-319.918,462.227)">
-                <text x="1027.26px" y="305.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:30.085px;fill:rgb(216,120,67);">trade</text>
+                <text x="985.646px" y="305.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:30.085px;fill:rgb(216,120,67);">tradedemo</text>
             </g>
             <g transform="matrix(1.34408,0,0,1.51936,-317.137,62.1657)">
                 <text x="999.19px" y="305.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:30.085px;fill:rgb(216,120,67);">packages</text>
             </g>
             <g transform="matrix(3.05407,0,0,3.45234,-313.046,-874.757)">
-                <text x="323.743px" y="300.824px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:19.976px;fill:rgb(51,51,51);">Trading project – trade action</text>
+                <text x="284.156px" y="300.824px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:19.976px;fill:rgb(51,51,51);">Trading project – package and actions</text>
             </g>
             <g transform="matrix(0.816194,0,0,0.503502,333.515,44.4383)">
                 <path d="M951.689,1054.71L951.08,1353.13" style="fill:none;stroke:rgb(249,167,119);stroke-width:10.79px;"/>
